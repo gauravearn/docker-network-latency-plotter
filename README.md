@@ -26,6 +26,7 @@ then
                         [[ -z $file ]]
                 then
                     docker network prune -y
+# entire code there this is just a part
 ```
 Gaurav Sablok \
 ORCID: https://orcid.org/0000-0002-4157-9405 \
