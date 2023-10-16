@@ -4,10 +4,12 @@ a docker network latency plotter coded which is a part of the bundle docker swar
 ```
 if [[ $ip_address ]]
    then 
-        ping "$ip_address" > "${ip_address}".log && cat "${ip_address}".log | cut -f 7 -d " " | cut -f 2 -d "=" | uplot bar -d, -t "time latency"
+        ping "$ip_address" > "${ip_address}".log && cat "${ip_address}".log | \
+                           cut -f 7 -d " " | cut -f 2 -d "=" | uplot bar -d, -t "time latency"
    else 
-   for i in $(docker network ls | cut -f 1 -d " " | sed "/NETWORK/d")
-         do echo ping "$i" > "${i}".log && cat "${i}".log | cut -f 7 -d " " | cut -f 2 -d "=" | uplot bar -d, -t "timelatency" 
+   for i in $(docker network ls | cut -f 1 -d " " | sed "/NETWORK/d") \
+         do echo ping "$i" > "${i}".log && cat "${i}".log | cut -f 7 -d " " | \
+                                             cut -f 2 -d "=" | uplot bar -d, -t "timelatency" 
    done
    fi
 fi 
