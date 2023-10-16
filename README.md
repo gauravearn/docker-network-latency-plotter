@@ -1,5 +1,5 @@
 # docker_network_latency_plotter
-a docker network latency plotter coded which is a part of the bundle docker swarm management and this subpart will check and plot all the docker network latency and also prune them if they are sleeping or are dead. this is the subpart of the docker swarm and management bundle which i already finished coding and pushing in a short while. A snippet of which is here if you want to use it separately. if will show you visual graphs for each of the container that is on the network including the bridge and the local ones. A bigger bundle you can find at ![docker_management](https://github.com/sablokgaurav/docker_swarm_management) which is in release.
+a docker network latency plotter coded which is a part of the bundle docker swarm management and this subpart will check and plot all the docker network latency and also prune them if they are sleeping or are dead. this is the subpart of the docker swarm and management bundle which i already finished coding and pushing in a short while. A snippet of which is here if you want to use it separately. if will show you visual graphs for each of the container that is on the network including the bridge and the local ones. A bigger bundle you can find at [docker_management](https://github.com/sablokgaurav/docker_swarm_management) which is in release.
 
 ```
 if [[ $ip_address ]]
