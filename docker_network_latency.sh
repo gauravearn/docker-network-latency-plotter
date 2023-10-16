@@ -29,7 +29,7 @@ then
          do 
             echo ping "$i" > "${i}".log && cat "${i}".log
           done
-              for file in $(pwd)/*log
+              for file in $(pwd)/*.log
               do 
                   if [[ -f $file ]] &&
                         [[ -z $file ]]
