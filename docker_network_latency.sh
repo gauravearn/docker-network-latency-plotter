@@ -28,13 +28,13 @@ then
      for i in $(docker network ls | cut -f 1 -d " " | sed "/NETWORK/d")
          do 
             echo ping "$i" > "${i}".log && cat "${i}".log
-        done
-            for file in $(pwd)/*log
-            do 
-                if [[ -f $file ]] &&
+          done
+              for file in $(pwd)/*log
+              do 
+                  if [[ -f $file ]] &&
                         [[ -z $file ]]
                 then
                     docker network prune -y
-            done
-    fi
+                  fi
+              done
 fi
