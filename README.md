@@ -1,4 +1,4 @@
-# docker_network_latency_plotter
+# docker-network-latency-plotter
 a docker network latency plotter coded which is a part of the bundle docker swarm management and this subpart will check and plot all the docker network latency and also prune them if they are sleeping or are dead. this is the subpart of the docker swarm and management bundle which i already finished coding and pushing in a short while. A snippet of which is here if you want to use it separately. if will show you visual graphs for each of the container that is on the network including the bridge and the local ones. A bigger bundle you can find at [docker_management](https://github.com/sablokgaurav/docker_swarm_management) which is in release.
 
 I finished almost implementing this sub module into a graphical interface and it looks like ![graphical interface](https://github.com/sablokgaurav/docker_network_latency_plotter/blob/main/docker_networking.png) and you can search the profile with the regular expression and it will explicit look into the network id. Have a look here ![profile](https://github.com/sablokgaurav/docker_network_latency_plotter/blob/main/profile_selection.png) and i am integrating this with the streamer library from here for seamless integration into python [pyobject](https://pygobject.readthedocs.io/en/latest/) and GTK for the linux kernel [gtk](https://python-gtk-3-tutorial.readthedocs.io/en/latest/)
@@ -33,7 +33,8 @@ then
 # entire code there this is just a part
 ```
 Gaurav Sablok \
-ORCID: https://orcid.org/0000-0002-4157-9405 \
-WOS: https://www.webofscience.com/wos/author/record/C-5940-2014 \
-RubyGems Published: https://rubygems.org/profiles/sablokgaurav \
-Python Packages Published : https://pypi.org/user/sablokgaurav/
+Academic Staff Member \
+Bioinformatics \
+Institute for Biochemistry and Biology \
+University of Potsdam \
+Potsdam,Germany 
