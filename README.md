@@ -32,7 +32,7 @@ then
                     docker network prune -y
 # entire code there this is just a part
 ```
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
